@@ -2,6 +2,7 @@ import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Grid from "@material-ui/core/Grid";
 import PriceInfo from "../molecules/Info/PriceInfo";
+import WalletCard from "../molecules/WalletCard/WalletCard"
 
 const useStyles = makeStyles((theme) => ({
   root: {

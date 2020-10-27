@@ -17,6 +17,7 @@ export default function ({ wallets, rate }) {
       <Grid container>
         <Grid item xs={12}>
           <PriceInfo />
+          <WalletCard wallets={wallets} rate={rate} />
         </Grid>
       </Grid>
     </div>
